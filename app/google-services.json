@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "494855945217",
+    "firebase_url": "https://duanmetruyen-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "duanmetruyen",
+    "storage_bucket": "duanmetruyen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494855945217:android:d4224aef82353936a31400",
+        "android_client_info": {
+          "package_name": "com.example.metruyen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494855945217-b6398ij9oc8fmpv3i9vfu3bjbpag7qvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMToGrm9M9IfkRt40l-3otlItNLHoIGS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494855945217-b6398ij9oc8fmpv3i9vfu3bjbpag7qvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

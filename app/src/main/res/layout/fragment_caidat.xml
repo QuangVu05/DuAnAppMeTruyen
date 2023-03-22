@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fagment.caidat"
+    android:orientation="vertical"
+    android:background="#61EDF3EC"
+    android:weightSum="10"
+    android:id="@+id/fragment_caidat">
+    <LinearLayout
+        android:layout_weight="3"
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="25">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:layout_weight="24"/>
+
+    <TextView
+        android:layout_weight="0.5"
+        android:id="@+id/txtten12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" QuangVu"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_weight="0.5"
+        android:id="@+id/txtemail12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QuangVu@gmai.com"
+        android:textSize="15dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        />
+</LinearLayout>
+
+   <LinearLayout
+       android:layout_weight="7"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:weightSum="113"
+       android:layout_marginEnd="10dp"
+       android:layout_marginStart="10dp"
+       android:layout_marginTop="20dp">
+
+
+    <Button
+      android:id="@+id/btnDangXuat"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Xuất"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+
+        />
+
+       <Button
+           android:id="@+id/btnDangKy"
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Đăng ký"
+           android:textColor="@color/white"
+           android:backgroundTint="@color/blue"
+
+           />
+       <Button
+           android:id="@+id/btnHoSo"
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Hồ sơ"
+           android:textColor="@color/white"
+           android:backgroundTint="@color/blue"
+           />
+       <Button
+           android:layout_weight="1"
+           android:id="@+id/btnDangNhap"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Đổi mật khẩu"
+           android:textColor="@color/white"
+           android:backgroundTint="@color/blue"
+
+           />
+   </LinearLayout>
+
+
+</LinearLayout>

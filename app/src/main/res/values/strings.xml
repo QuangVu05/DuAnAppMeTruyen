@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MeTruyen</string>
+    <string name="user">Cài đặt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_tu_truyen">Tủ truyện</string>
+    <string name="action_home">Trang chủ</string>
+    <string name="action_setting">Cài đặt</string>
+    <string name="action_search">Tìm Kiếm</string>
+</resources>

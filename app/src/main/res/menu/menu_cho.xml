@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_tu_truyen"
+        android:icon="@drawable/icon_book"
+        android:title="@string/action_tu_truyen"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/item_home"
+        android:title="@string/action_home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        android:title="@string/action_setting"
+        app:showAsAction="always" />
+
+</menu>
